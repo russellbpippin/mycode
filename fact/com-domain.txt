@@ -1,0 +1,7 @@
+lookup.tails.example.org
+search.drwiley.example.org
+dns.knuckles.example.org
+emerald.ring.example.org
+dns.example.com
+sonic.dns.example.com
+lookup.supershoes.example.com
