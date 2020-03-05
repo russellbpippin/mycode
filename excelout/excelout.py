@@ -17,7 +17,7 @@ while(True):
     keep_going = input("\nWould you like to add another value? Enter to continue, or enter 'q' to quit: ")
     if (keep_going.lower() == 'q'):
         break
-filename = print("What is the stupid file name of the *.xls file? ")
+filename = input("What is the stupid file name of the *.xls file? ")
 pyexcel.save_as(records=mylistdict, dest_file_name = f'{filename}.xls')
 
 print("The file " + filename + ".xls should be in your local directory")
